@@ -7,6 +7,8 @@ This service exposes the method that provides the required functionality
 
 public List<FlightResponse> searchFlights(FlightRequest flightRequest) throws FlightSearchException 
 
-The FlightRequest object encapsulates all the needed parameters (i.e. #adults, #children, etc..) and its built using a stepped builder that is also provided.
+The FlightRequest object encapsulates all the needed parameters (i.e. #adults, #children, etc..) and its built using a stepped builder that assures that the object is built in a consistent state
+
+
 
 
